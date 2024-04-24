@@ -1,5 +1,5 @@
 body {
-    background-color: #bee1e4;
+    background-color: #d9ebed;
 }
 
 .Tittel {
@@ -44,5 +44,12 @@ body {
 .table th {
     color: #aa3d3d;
     font-size: 16px;
+}
+
+.form-control {
+    background-color: #cef8dc;
+    font-weight:bolder ;
+    font-size: 20px;
+    color: #c57b06;
 }
 
