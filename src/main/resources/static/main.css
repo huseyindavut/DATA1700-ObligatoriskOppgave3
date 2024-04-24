@@ -1,12 +1,13 @@
 body {
+    font-family:Tahoma;
     background-color: #d9ebed;
 }
 
 .Tittel {
     font-weight: bold;
     color: #f3f350;
-    background-color: #4ec0dd;
-    border-radius: 10px;text-align: center;
+    background-color: #329bb5;
+    border-radius: 19px;text-align: center;
 }
 
 .filmListe {
@@ -47,9 +48,8 @@ body {
 }
 
 .form-control {
-    background-color: #cef8dc;
     font-weight:bolder ;
     font-size: 20px;
-    color: #c57b06;
+    border-radius: 15px;
 }
 
