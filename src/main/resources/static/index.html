@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kino Billett Bestilling</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="Tittel">BESTILLING AV KINO BILLETT </h1>
+            <br>
+            <br>
+
+
+            <form class ="form">
+                <div class="form-group">
+                    <label for="filmliste" class="filmListe"  >Film</label>
+                    <div id="filmliste">
+                    </div >
+                    <span id="filmFeil" class="feilmelding" ></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="antall" class="form-label" >Antall</label>
+                    <input type="number" class="form-control" id ="antall" />
+                    <span id="antallFeil" class="feilmelding"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="fornavn" class="form-label" >Fornavn</label>
+                    <input type="text" class="form-control"  id ="fornavn" />
+                    <span id="fornavnFeil" class="feilmelding" ></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="etternavn" class="form-label" >Etternavn</label>
+                    <input type="text" class="form-control" id ="etternavn" />
+                    <span id="etternavnFeil" class="feilmelding"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefonnr" class="form-label" >Telefonnr</label>
+                    <input type="number" class="form-control" id ="telefonnr" />
+                    <span id="telefonnrFeil" class="feilmelding"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="epost" class="form-label" >Epost</label>
+                    <input type="email" class="form-control" id ="epost" />
+                    <span id="emailFeil" class="feilmelding" ></span>
+                </div>
+            </form>
+
+            <div>
+                <button class="btn btn-primary" onclick="kjopbillett()">Registrering</button>
+                <br>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <div class="col-md-7">
+        <h3 class="filmListe">Dine Bilettene</h3>
+        <div id="billettvisning"></div>
+        <br>
+        <button class="btn btn-danger" onclick="deleteAll()">Slett Alle</button>
+    </div>
+    <br>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: #bee1e4;
+}
+
+.Tittel {
+    font-weight: bold;
+    color: #f3f350;
+    background-color: #4ec0dd;
+    border-radius: 10px;text-align: center;
+}
+
+.filmListe {
+    border-radius: 4px;
+    color: #8a11c3;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-label {
+    border-radius: 4px;
+    color: #8a11c3;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.feilmelding {
+    color: #ff0202;
+    background-color: yellow;
+}
+
+.film,
+.antall,
+.fornavn,
+.etternavn,
+.telefonnr,
+.epost,
+.status {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.table th {
+    color: #aa3d3d;
+    font-size: 16px;
+}
+
