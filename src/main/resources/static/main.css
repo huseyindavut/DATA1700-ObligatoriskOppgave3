@@ -4,10 +4,11 @@ body {
 }
 
 .Tittel {
+    font-size: 28px;
     font-weight: bold;
     color: #f3f350;
     background-color: #329bb5;
-    border-radius: 19px;text-align: center;
+    border-radius: 12px;text-align: center;
 }
 
 .filmListe {
